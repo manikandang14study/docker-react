@@ -6,4 +6,4 @@ before_install:
  - docker build -t manig14/docker-react -f Dockerfile.dev .
 
 script:
-  - docker run manig14/docker-react npm run test -- --coverageclea
+  - docker run manig14/docker-react npm run test -- --coverage

@@ -3,7 +3,7 @@ services:
   - docker
 
 before_install:
- - docker build -t manig14/docker-react git .
+ - docker build -t manig14/docker-react .
  #- docker build -t manig14/docker-react -f Dockerfile.dev .
 
 # script:
